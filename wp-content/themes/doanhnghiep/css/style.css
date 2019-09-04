@@ -592,9 +592,9 @@
      color: #f37436;
 }
 .address_header p{
-	font-size: 14px;
-	line-height: 23px;
-	color:#000;
+     font-size: 14px;
+     line-height: 23px;
+     color:#000;
 }
  .address_header p em{
      font-style: normal;
@@ -1740,21 +1740,21 @@ line-height: 23px;
      padding: 10px;
 }
 .partners li figure{
-	height: 200px;
-	overflow: hidden;
-	position: relative;
-	widows: 100%;
+     height: 200px;
+     overflow: hidden;
+     position: relative;
+     widows: 100%;
 }
 .partners li figure img{
-	position: absolute;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	max-width: 80%;
-	height: auto;
+     position: absolute;
+     top:50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     max-width: 80%;
+     height: auto;
 }
 .partners .slick-slider{
-	margin:0px !important;
+     margin:0px !important;
 }
 .logo_single .absolute_link{
      position: absolute;
@@ -1873,6 +1873,39 @@ line-height: 23px;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+.flexslider .caption-wrap{
+     background: none !important;
+     position: absolute !important;
+     top: 77%;
+     left: 50% !important;
+     transform: translate(-50%,-50%) !important;
+     max-width: 1000px;
+     width: 100% !important;
+}
+.flexslider .caption-wrap{
+     position: relative !important;
+     left:initial !important;
+     bottom:initial !important;
+     transform: none !important;
+}
+.flexslider .date_address_bn .date_bn {
+     float:left;
+  
+}
+.flexslider .date_address_bn .date_bn{
+        font-size: 60px;
+        line-height: 30px;
+        font-weight: 700;
+        color:#006838;
+}
+.flexslider .date_address_bn .address_bn{
+     float:right;
+}
+.flexslider .date_address_bn .address_bn p{
+      font-size: 60px;
+        line-height: 30px;
+        font-weight: 700;
+}
 /* end css rau*/
 
 /* pagination */
@@ -1975,7 +2008,7 @@ line-height: 23px;
          font-size: 14px;
     }
     .address_header{
-    	margin:23px 0px 0px 30px;
+     margin:23px 0px 0px 30px;
     }
 
      .cat_post_area_idx .list_post_item .thumbnail{
@@ -1986,10 +2019,10 @@ line-height: 23px;
          min-height: 72px;
     }
     .logo_site{
-    	max-width: 200px;
+     max-width: 200px;
     }
     .address_header .textwidget{
-    	max-width: 300px;
+     max-width: 300px;
     }
 }
  @media(max-width: 767px){
@@ -1997,51 +2030,51 @@ line-height: 23px;
          overflow-x: hidden;
     }
     .introduce_index h3.widget-title{
-    	    margin: 20px 0px 20px 0px;
+         margin: 20px 0px 20px 0px;
     font-size: 22px;
     line-height: 36px;
     text-align: center;
     }
     .list_post_news ul li h3 a{
-    	font-size: 18px;
-    	line-height: 26px;
+     font-size: 18px;
+     line-height: 26px;
     }
     .regis_fixed{
-    	position: fixed;
-    	bottom:0px;
-    	left: initial;
-    	top:initial;
-    	width: 100%;
-    	max-width: 100%;
+     position: fixed;
+     bottom:0px;
+     left: initial;
+     top:initial;
+     width: 100%;
+     max-width: 100%;
     }
     .introduce_index .textwidget p{
-    	font-size: 14px;
-    	line-height: 22px;
+     font-size: 14px;
+     line-height: 22px;
     }
     .excerpt p{
-    	font-size: 14px;
-    	line-height: 22px;
+     font-size: 14px;
+     line-height: 22px;
     }
     .regis_fixed ul li{
-    	float:left;
-    	width: 50%;
-    	margin: 0px;
+     float:left;
+     width: 50%;
+     margin: 0px;
     }
      .regis_fixed ul li a{
-     	border-radius: 10px 10px 0px 0px;
-     	text-align: center;
-     	padding: 15px 10px 15px 20px;
-     	font-size: 11px;
+          border-radius: 10px 10px 0px 0px;
+          text-align: center;
+          padding: 15px 10px 15px 20px;
+          font-size: 11px;
      }
      .regis_fixed ul>li:nth-child(2)::before , .regis_fixed ul>li:nth-child(1)::before{
-     	display: none;
+          display: none;
      }
      .ft_custom .row>.col-sm-6:nth-child(2) h3::before{
-     	left: 0px;
-     	right: initial;
+          left: 0px;
+          right: initial;
      }
      .ft_custom .row>.col-sm-6:last-child{
-     	text-align: left;
+          text-align: left;
      }
     .site-lang{
      margin: 25px 50px 0px 0px;
@@ -2195,13 +2228,13 @@ line-height: 23px;
           margin: 0px 0px 30px 0px;
     }
  .img_category_single{
- 	height: 180px;
+     height: 180px;
  }
  .list_post_item{
- 	width: 100%;
+     width: 100%;
  }
  .list_post_categories>.list_post_item:nth-child(3n+1){
- 	clear: none;
+     clear: none;
  }
  
 }

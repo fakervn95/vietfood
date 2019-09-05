@@ -1873,38 +1873,47 @@ line-height: 23px;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-.flexslider .caption-wrap{
-     background: none !important;
+.header .flexslider .caption-wrap{
+     background: #fff !important;
      position: absolute !important;
-     top: 77%;
+     top: 68%;
      left: 50% !important;
      transform: translate(-50%,-50%) !important;
-     max-width: 1000px;
+     max-width: 740px;
      width: 100% !important;
+     padding: 20px !important;
+     opacity: 1 !important;
 }
-.flexslider .caption-wrap{
+.header .flexslider .caption{
      position: relative !important;
      left:initial !important;
      bottom:initial !important;
      transform: none !important;
 }
-.flexslider .date_address_bn .date_bn {
-     float:left;
-  
+.header .flexslider .date_address_bn .date_bn {
+     float: none;
+     margin: 10px 0px 0px 2px;
+     display: table;
+     margin: 0px auto 20px auto;
 }
-.flexslider .date_address_bn .date_bn{
-        font-size: 60px;
+.header .flexslider .date_address_bn .date_bn{
+        font-size: 62px;
         line-height: 30px;
         font-weight: 700;
         color:#006838;
 }
-.flexslider .date_address_bn .address_bn{
-     float:right;
+.header .flexslider .date_address_bn .address_bn{
+     float: none;
+     max-width: 100%;
+     width: 100%;
 }
-.flexslider .date_address_bn .address_bn p{
-      font-size: 60px;
-        line-height: 30px;
-        font-weight: 700;
+.header .flexslider .date_address_bn .address_bn p{
+      font-size: 22px;
+      line-height: 34px;
+      font-weight: 700;
+      color: #006838;
+      text-align: center;
+      text-shadow: 2px 2px 3px #b5a3a3;
 }
 /* end css rau*/
 
